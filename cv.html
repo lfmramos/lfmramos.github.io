@@ -1,137 +1,578 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
 
-<!-- MAIN CONTAINER -->
-		<div id="main_container">
-      <!-- HEADER -->
-      <div id="header">
-        <!-- LOGOTYPE/NAME -->
-        <div class="header_logotype_container">
-          <h1 class="logotype_name">Luis Felipe <span class="purple">Ramos</span></h1>
-          <h2 class="logotype_occupation">Software Developer</h2>
-        </div>
-        <!-- MAIN MENU -->
-        <div class="header_menu_container">
-          <ul class="download_print_buttons horizontal_list">
-            <li><a href="#"><span class="icon entypo-download"></span>Download CV</a></li>
-            <li><a href="#"><span class="icon entypo-print"></span>Print CV</a></li>
-          </ul>
-          <div class="clear"></div>
-          <ul class="header_menu horizontal_list">
-            <li><a class="no_border purple" href="#">Profile</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Work Experience</a></li>
-            <li><a href="#">Featured Projects</a></li>
-            <li><a href="#">Awards</a></li>
-          </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet'
+    type='text/css'>
+
+  <!-- MAIN CONTAINER -->
+  <div id="main_container">
+    <!-- HEADER -->
+    <div id="header">
+      <!-- LOGOTYPE/NAME -->
+      <div class="header_logotype_container">
+        <h1 class="logotype_name">Luis Felipe <span class="purple">Ramos</span></h1>
+        <h2 class="logotype_occupation">Software Developer</h2>
+      </div>
+      <!-- MAIN MENU -->
+      <div class="header_menu_container">
+        <ul class="download_print_buttons horizontal_list">
+          <li><a href="#"><span class="icon entypo-download"></span>Download CV</a></li>
+          <li><a href="#"><span class="icon entypo-print"></span>Print CV</a></li>
+        </ul>
+        <div class="clear"></div>
+        <ul class="header_menu horizontal_list">
+          <li><a class="no_border purple" href="#">Profile</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#">Experience</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#interests">Interests</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- LEFT COL -->
+    <div id="left_col">
+      <div class="profile_frame">
+        <div class="profile_picture">
+          <img src="images/luis.jpg" alt="profile picture">
         </div>
       </div>
-      <!-- LEFT COL -->
-      <div id="left_col">
-        <div class="profile_frame">
-          <!--<div class="profile_picture"></div> -->
-          <img src="images/luis.jpg" alt="profile picture"> -->
-        </div>
-        <div class="hello_content">
-          <h2>Hello!</h2>
-          <p>I'm passionate about technology and human behavior, hardworker and a fast-learner with experience in around 10 different countries studying, working and volunteering.</p>
-        </div>
-        <div class="contact_details_content">
-          <h2>Contact details</h2>
-          <p class="purple">Phone:</p>
-          <p>+351 966 425 545</p>
-          <p class="purple">Email:</p>
-          <p>jlalovi@gmail.com</p>
-          <p class="purple">Adress:</p>
-          <p>Someplace, 5</p>
-          <p>Jaén, Spain</p>
-          <p>23001</p>
-        </div>
-        <a href="mailto:jlalovi@gmail.com" class="send_message_button">
-          <span class="cut1"></span>
-          <span class="cut2"></span>
-          <span class="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
-        </a>
-        <div class="get_social_content">
-          <h2>Get social</h2>
-          <ul class="social_icons horizontal_list">
+      <div class="hello_content">
+        <h2>Hello!</h2>
+        <p>I'm passionate about technology and human behavior, hardworker and a fast-learner with experience in around
+          10 different countries studying, working and volunteering.</p>
+      </div>
+      <div class="contact_details_content">
+        <h2>Contact details</h2>
+        <p class="purple">Phone:</p>
+        <p>+351 966 425 545</p>
+        <p class="purple">Email:</p>
+        <p>luis.felipe.ramos@proton.me</p>
+        <p class="purple">Adress:</p>
+        <!--<p>Someplace, 5</p>-->
+        <p>Braga, Portugal</p>
+        <p>4710370</p>
+      </div>
+      <a href="mailto:luis.felipe.ramos@proton.me" class="send_message_button">
+        <span class="cut1"></span>
+        <span class="cut2"></span>
+        <span class="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
+      </a>
+      <div class="get_social_content">
+        <h2>Get social</h2>
+        <ul class="social_icons horizontal_list">
+          <!--
             <li><a class="facebook" href="https://www.facebook.com/jlalovi"><span class="entypo-facebook-circled"></span><span class="invisible">Facebook</span></a></li>
             <li><a class="twitter" href="https://twitter.com/jlalovi"><span class="entypo-twitter-circled"></span><span class="invisible">Twitter</span></a></li>
-            <li><a class="linkedin" href="https://www.linkedin.com/in/jlalovi/en"><span class="entypo-linkedin-circled"></span><span class="invisible">LinkedIn</span></a></li>
+          -->
+          <li><a class="linkedin" href="https://www.linkedin.com/in/luisfeliperamos"><span
+                class="entypo-linkedin-circled"></span><span class="invisible">LinkedIn</span></a></li>
+          <li><a class="github" href="https://www.github.com/lfmramos"><span class="entypo-github-circled"></span><span
+                class="invisible">GitHub</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- PROFILE CONTENT -->
+    <div id="content_container">
+      <div class="block">
+        <h1>Profile</h1>
+        <blockquote class="profile_quote">
+          <p>"Look up at the stars and not down at your feet. Be curious, and however difficult life may seem, there is
+            always something you can do and succeed at."</p>
+          <p>Stephen Hawking.</p>
+          <span class="entypo-quote"></span>
+        </blockquote>
+      </div>
+      <div class="block">
+        <h2>A few words about me</h2>
+        <p>As a legal expert-turned-software developer, I am a fiercely dedicated professional who blends technical
+          proficiency with sharp business and legal expertise.
+          My ability to navigate the complexities of coding while keeping an eye on the product's overarching vision
+          sets me apart.
+          I deliver structured, secure, efficient code that drives real business value.
+          With a strong desire to tackle new challenges, I am ready and equipped to navigate any obstacles that come my
+          way.</p>
+      </div>
+      <div class="horizontal_line">
+        <div class="line_left"></div>
+        <div class="left_circle"></div>
+        <div class="central_circle"></div>
+        <div class="right_circle"></div>
+        <div class="line_right"></div>
+      </div>
+      <div class="block">
+        <h2>Philosophy</h2>
+        <p>I belive in ethic and moral not in imposed rules that you "have to" do or follow.</p>
+        <div class="philosophy_content">
+          <p>I believe life is made from different shades of grey, not from black and white. Furthermore, as a human
+            being with rationality, I think it is our duty to take care of the world and treat others as one would like
+            others to treat oneself. This way of perceiving reality affects my beliefs and my way of behaving.
+            Summarizing on several points:</p>
+          <ul>
+            <li>Pragmatic</li>
+            <li>Honest</li>
+            <li>Respectful</li>
+            <li>Open-minded</li>
+            <li>Coherent</li>
           </ul>
+          <div class="clear"></div>
         </div>
       </div>
-      <!-- PROFILE CONTENT -->
-      <div id="content_container">				
-        <div class="block">
-          <h1>Profile</h1>
-          <blockquote class="profile_quote">
-            <p>"There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning."</p>
-            <p>Jiddu Krishnamurti.</p>
-            <span class="entypo-quote"></span>
-          </blockquote>
-        </div>
-        <div class="block">
-          <h2>A few words about me</h2>
-          <p>Until now, in my life, I change from active moments with a lot of variety, challenges and improvisations, to moments of tranquility and stability, being difficult to stay in a place during a long time. I consider myself a tolerant and respectful person with open mind and quite honest. I really like to listen people stories and backgrounds and their different experiences around the world.</p>				
-        </div>
-        <div class="horizontal_line">
-          <div class="line_left"></div>
-          <div class="left_circle"></div>
-          <div class="central_circle"></div>
-          <div class="right_circle"></div>
-          <div class="line_right"></div>
-        </div>
-        <div class="block">
-          <h2>Philosophy</h2>
-          <p>I belive in ethic and moral not in imposed rules that you "have to" do or follow.</p>
-          <div class="philosophy_content">
-            <p>I believe life is made from different shades of grey, not from black and white. Furthermore, as a human being with rationality, I think it is our duty to take care of the world and treat others as one would like others to treat oneself. This way of perceiving reality affects my beliefs and my way of behaving. Summarizing on several points:</p>
-            <ul>
-              <li>Pragmatic</li>
-              <li>Honest</li>
-              <li>Respectful</li>
-              <li>Open-minded</li>
-              <li>Coherent</li>
-            </ul>
-            <div class="clear"></div>
+      <div class="horizontal_line">
+        <div class="line_left"></div>
+        <div class="left_circle"></div>
+        <div class="central_circle"></div>
+        <div class="right_circle"></div>
+        <div class="line_right"></div>
+      </div>
+      <div class="block" id="skills">
+        <h2><i class="fa-solid fa-code"></i> <b>XP / Skills</b></h2>
+        <p>I'm passionate about technology and human behavior, both determine almost all my interests and hobbies:</p>
+
+        <div class="skills-container">
+          <div class="skill-box">
+            <h3>Programming Languages</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="Python"
+                  class="external-icon">
+                <span>Python</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="Java"
+                  class="external-icon">
+                <span>Java</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JavaScript"
+                  class="external-icon">
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" alt="CSharp"
+                  class="external-icon">
+                <span>C#</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000" alt="SQL"
+                  class="external-icon">
+                <span>SQL</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=CLvQeiwFpit4&format=png&color=000000" alt="R"
+                  class="external-icon">
+                <span>R</span>
+              </div>
+              <!-- Add more icons as needed -->
+            </div>
           </div>
+
+          <div class="skill-box">
+            <h3>Databases</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" alt="MySQL"
+                  class="external-icon">
+                <span>MySQL</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=DakakaPez2uy&format=png&color=000000" alt="MariaDB"
+                  class="external-icon">
+                <span>MariaDB</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000" alt="MongoDB"
+                  class="external-icon">
+                <span>MongoDB</span>
+              </div>
+              <!-- Add more icons as needed -->
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <h3>Web Development</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML"
+                  class="external-icon">
+                <span>HTML</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS"
+                  class="external-icon">
+                <span>CSS</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000" alt="BootStrap"
+                  class="external-icon">
+                <span>BootStrap</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=J79emsSv2QCu&format=png&color=000000" alt="React.js"
+                  class="external-icon">
+                <span>React.js</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.brandfetch.io/id2alue-rx/theme/dark/idqNI71Hra.svg?c=1dxbfHSJFAPEGdCLU4o5B"
+                  alt="Next.js" class="external-icon">
+                <span>Next.js</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=9Um0Q4sZ0QCC&format=png&color=000000" alt="jQuery"
+                  class="external-icon">
+                <span>jQuery</span>
+              </div>
+              <!-- Add more icons as needed -->
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <h3>Data Tools</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000" alt="Pandas"
+                  class="external-icon">
+                <span>Pandas</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png&color=000000" alt="NumPy"
+                  class="external-icon">
+                <span>NumPy</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=Rffi8qeb2fK5&format=png&color=000000" alt="Streamlit"
+                  class="external-icon">
+                <span>Streamlit</span>
+              </div>
+              <div class="skill-item">
+                <img src="images/plotly.png" alt="Plotly" class="external-icon">
+                <span>Plotly</span>
+              </div>
+              <!-- Add more icons as needed -->
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <h3>Frameworks</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <img src="https://static.djangoproject.com/img/logos/django-logo-positive.svg" alt="Spring Framework"
+                  class="external-icon">
+                <span>Django</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="Spring Framework"
+                  class="external-icon">
+                <span>Spring Framework</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://maven.apache.org/images/maven-logo-black-on-white.svg" alt="Apache Maven"
+                  class="external-icon">
+                <span>Apache Maven</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=QFcVqyh6lBh6&format=png&color=000000" alt="Apache Tomcat"
+                  class="external-icon">
+                <span>Apache Tomcat</span>
+              </div>
+              <!-- Add more icons as needed -->
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <h3>Business Intelligence</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=3sGOUDo9nJ4k&format=png&color=000000" alt="Power BI"
+                  class="external-icon">
+                <span>Power BI</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=9Kvi1p1F0tUo&format=png&color=000000" alt="Tableau"
+                  class="external-icon">
+                <span>Tableau</span>
+              </div>
+              <!-- Add more icons as needed -->
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <h3>Version Control</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="Git"
+                  class="external-icon">
+                <span>Git</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=62856&format=png&color=000000" alt="GitHub"
+                  class="external-icon">
+                <span>GitHub</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=34886&format=png&color=000000" alt="GitLab"
+                  class="external-icon">
+                <span>GitLab</span>
+              </div>
+              <!-- Add more icons as needed -->
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <h3>IDEs and Editors</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" alt="VS Code"
+                  class="external-icon">
+                <span>VS Code</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=ezj3zaVtImPg&format=png&color=000000" alt="Visual Studio"
+                  class="external-icon">
+                <span>Visual Studio</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=61466&format=png&color=000000" alt="IntelliJ IDEA"
+                  class="external-icon">
+                <span>IntelliJ IDEA</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=YYhSxUUW8osK&format=png&color=000000" alt="RStudio"
+                  class="external-icon">
+                <span>RStudio</span>
+              </div>
+              <!-- Add more icons as needed -->
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <h3>Other Tools</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=F4uMFPZgS0gt&format=png&color=000000" alt="Anaconda"
+                  class="external-icon">
+                <span>Anaconda</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=t2x6DtCn5Zzx&format=png&color=000000" alt="Nginx"
+                  class="external-icon">
+                <span>Nginx</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="Node.js" class="external-icon">
+                <span>Node.js</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=nZoJhBpPfVev&format=png&color=000000" alt="Notion"
+                  class="external-icon">
+                <span>Notion</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://images.ctfassets.net/nrgyaltdicpt/451Wbu94Q1X3M5QIk74QLL/08e42061e965fb152a329ded74cdc3ce/overleaf-o-logo-primary.svg"
+                  alt="Overleaf" class="external-icon">
+                <span>Overleaf</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000" alt="Postman"
+                  class="external-icon">
+                <span>Postman</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://img.icons8.com/?size=100&id=msEYyNYRhwgV&format=png&color=000000" alt="Trello"
+                  class="external-icon">
+                <span>Trello</span>
+              </div>
+              <!-- Add more icons as needed -->
+            </div>
+          </div>
+
         </div>
-        <div class="horizontal_line">
-          <div class="line_left"></div>
-          <div class="left_circle"></div>
-          <div class="central_circle"></div>
-          <div class="right_circle"></div>
-          <div class="line_right"></div>
+        <div class="back-to-top">
+          <a href="#top">Back to Top</a>
         </div>
-        <div class="last block">
-          <h2>Interests & Hobbies</h2>
-          <p>I'm passionate about technology and human behavior, both determine almost all my interests and hobbies:</p>
-          <ul>
-            <li>Visiting new places</li>
-            <li>Meeting people</li>
-            <li>Having new experiences</li>
-            <li>Hiking and Biking</li>
-            <li>Web Developing</li>
-            <li>Computer Gamming</li>
-            <li>Manga and Anime</li>
-          </ul>
+      </div>
+      <div class="horizontal_line">
+        <div class="line_left"></div>
+        <div class="left_circle"></div>
+        <div class="central_circle"></div>
+        <div class="right_circle"></div>
+        <div class="line_right"></div>
+      </div>
+      <div class="block" id="languages">
+        <h2><i class="fa-solid fa-language"></i> <b>Languages</b></h2>
+        <p>I'm passionate about technology and human behavior, both determine almost all my interests and hobbies:</p>
+        <p>🇵🇹 Portuguese - Native speaker</p>
+        <p>🇬🇧 English - Proficient C1</p>
+        <p>🇮🇹 Italian - Intermediate B1</p>
+        <p>🇫🇷 French - Basic A2</p>
+        <p>🇪🇸 Spanish - Basic A2</p>
+        <div class="back-to-top">
+          <a href="#top">Back to Top</a>
+        </div>
+      </div>
+      <div class="horizontal_line">
+        <div class="line_left"></div>
+        <div class="left_circle"></div>
+        <div class="central_circle"></div>
+        <div class="right_circle"></div>
+        <div class="line_right"></div>
+      </div>
+      <div class="last block" id="interests">
+        <h2><i class="fa-solid fa-globe"></i> <b>Interests & Hobbies</b></h2>
+        <p>I've always been passionated by travelling, both in my imagination and in the real world.</p>
+        <p>The best way to free your mind to travel around is by reading, and this is something I love to do.</p>
+        <p>Here are some of my favorite books (unfortunately, <a href="https://www.goodreads.com/">Goodreads</a> does
+          not have all books I'd like to recommend):</p>
+        <p class="widget-paragraph">
+          <style type="text/css" media="screen">
+            .gr_grid_container {
+              /* customize grid container div here. eg: width: 500px; */
+            }
+
+            .gr_grid_book_container {
+              /* customize book cover container div here */
+              float: left;
+              width: 39px;
+              height: 60px;
+              padding: 0px 0px;
+              overflow: hidden;
+            }
+          </style>
+          <div id="gr_grid_widget_1742214868" class="widget-container">
+            <!-- Widget content -->
+          </div>
+          <script
+            src="https://www.goodreads.com/review/grid_widget/187214671.Luis's%20bookshelf:%20read?cover_size=small&hide_link=true&hide_title=true&num_books=200&order=a&shelf=read&sort=random&widget_id=1742214868"
+            type="text/javascript" charset="utf-8"></script>
+        </p>
+        <p class="spaced-paragraph">And here are some of the places I've already had the pleasure to visit:</p>
+        <!-- VisitedPlaces.com code -->
+        <script>
+          // VisitedPlaces.com code
+          var visitedplaces_config = {
+            "map": "world",
+            "projection": "geoOrthographic",
+            "theme": "dark-blue",
+            "water": 1,
+            "graticule": 1,
+            "names": 1,
+            "duration": 2500,
+            "slider": 0,
+            "autoplay": 1,
+            "autozoom": "step",
+            "data": [
+              {
+                "colors": {},
+                "places": [
+                  "BR",
+                  "PY",
+                  "UY"
+                ],
+                "text": "South America",
+                "position": {
+                  "zoomLevel": 1.5,
+                  "geoPoint": {
+                    "longitude": -65.9,
+                    "latitude": -20.1
+                  },
+                  "rotationX": 65.9,
+                  "rotationY": 20.1
+                }
+              },
+              {
+                "colors": {},
+                "places": [
+                  "AU"
+                ],
+                "text": "Oceania",
+                "position": {
+                  "zoomLevel": 1.9,
+                  "geoPoint": {
+                    "longitude": 134.3,
+                    "latitude": -25.7
+                  },
+                  "rotationX": -134.3,
+                  "rotationY": 25.7
+                }
+              },
+              {
+                "colors": {},
+                "places": [
+                  "ID",
+                  "SG"
+                ],
+                "text": "Asia",
+                "position": {
+                  "zoomLevel": 1.5,
+                  "geoPoint": {
+                    "longitude": 83.8,
+                    "latitude": 33.3
+                  },
+                  "rotationX": -83.8,
+                  "rotationY": -33.3
+                }
+              },
+              {
+                "colors": {
+                  "PT": "daaa44"
+                },
+                "places": [
+                  "BE",
+                  "DK",
+                  "FR",
+                  "DE",
+                  "GR",
+                  "IE",
+                  "IT",
+                  "MC",
+                  "NL",
+                  "PT",
+                  "SM",
+                  "ES",
+                  "GB",
+                  "VA"
+                ],
+                "text": "Europe",
+                "position": {
+                  "zoomLevel": 2.4,
+                  "geoPoint": {
+                    "longitude": 12.1,
+                    "latitude": 53.3
+                  },
+                  "rotationX": -12.1,
+                  "rotationY": -53.3
+                }
+              }
+            ],
+            "home": "PT"
+          };
+        </script>
+        <div id="chartdiv" style="width: 100%; height: 300px;">
+          <script src="https://www.visitedplaces.com/js/common.js"></script>
+          <script src="https://www.visitedplaces.com/js/viewer.js"></script>
+          <!-- end: VisitedPlaces.com code -->
+        </div>
+        <div class="back-to-top">
+          <a href="#top">Back to Top</a>
         </div>
       </div>
       <div class="clear"></div>
       <!-- FOOTER -->
       <div id="footer">
-        <p class="footer_name">Javier Latorre CV 2015</p>
+        <p class="footer_name">Luis Felipe Ramos CV 2025</p>
       </div>
-		</div>
+    </div>
 </body>
+
 </html>
