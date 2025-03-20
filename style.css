@@ -540,15 +540,18 @@ li:before {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 20px;
+	margin-top: 20px;
 }
 
+/* Replace the conflicting skill-box styles with this unified version */
 .skill-box {
-	border: 1px solid #ccc;
-	padding: 10px;
-	border-radius: 5px;
 	width: 100%;
 	max-width: 600px;
-	text-align: center;
+	margin-bottom: 8px;     /* Keep buttons close together */
+	border: none;           /* Remove the border */
+	padding: 0;             /* Remove padding */
+	border-radius: 0;       /* Remove border radius */
+	text-align: left;       /* Align text left to match button */
 }
 
 .skill-box h3 {
@@ -622,4 +625,76 @@ li:before {
 /* Add to your CSS */
 *, *:before, *:after {
     box-sizing: border-box;
+}
+
+/* Skills section styling */
+.skills-container {
+  margin-top: 20px;
+}
+
+.skill-box {
+  margin-bottom: 8px; /* Reduced margin to bring buttons closer */
+}
+
+.toggle-button {
+  background-color: #48DA9B;
+  color: #fff; /* Changed from #04080b to white (#fff) */
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 15px;
+  text-align: left;
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  box-shadow: none; /* Remove any shadow */
+  margin: 0; /* Remove any margin */
+}
+
+.toggle-button:hover {
+  background-color: #3bc98a;
+}
+
+.toggle-button i {
+  margin-left: 10px;
+  color: #fff; /* Make sure the icon is also white */
+}
+
+.skill-content {
+  padding: 15px 0;       /* Reduce horizontal padding */
+  background-color: transparent; /* Remove gray background */
+  border: none; /* Remove any border */
+  margin: 0;
+}
+
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+}
+
+.skill-item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+  object-fit: contain;
+}
+
+.skill-item span {
+  font-size: 12px;
+  text-align: center;
+  color: #9099A0;
 }

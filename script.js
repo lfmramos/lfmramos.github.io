@@ -4,14 +4,42 @@ document.addEventListener('DOMContentLoaded', function() {
   toggleButtons.forEach(function(button) {
     button.addEventListener('click', function() {
       var skillContent = this.nextElementSibling;
+      
+      // Toggle this content section
       if (skillContent.style.display === 'block') {
         skillContent.style.display = 'none';
-        this.querySelector('i').classList.replace('fa-caret-down', 'fa-caret-right');
       } else {
         skillContent.style.display = 'block';
-        this.querySelector('i').classList.replace('fa-caret-right', 'fa-caret-down');
+      }
+      
+      // Add arrow indicators (optional)
+      if (!this.querySelector('i')) {
+        var icon = document.createElement('i');
+        icon.classList.add('fa-solid', 'fa-caret-right');
+        this.appendChild(icon);
+      }
+      
+      if (skillContent.style.display === 'block') {
+        if (this.querySelector('i')) {
+          this.querySelector('i').classList.replace('fa-caret-right', 'fa-caret-down');
+        }
+      } else {
+        if (this.querySelector('i')) {
+          this.querySelector('i').classList.replace('fa-caret-down', 'fa-caret-right');
+        }
       }
     });
+    
+    // Initialize: Add arrow icon to all buttons
+    if (!button.querySelector('i')) {
+      var icon = document.createElement('i');
+      icon.classList.add('fa-solid', 'fa-caret-right');
+      button.appendChild(icon);
+    }
+    
+    // Hide all skill content initially
+    var content = button.nextElementSibling;
+    content.style.display = 'none';
   });
 });
 
