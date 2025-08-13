@@ -15,13 +15,13 @@ My research contributions have been published in the fields of privacy, data pro
 
 <span style="color:#48DA9B">Education</span>
 ---
-======
 - Ph.D. in Law, *University of Minho, Portugal* -  ongoing
 - LL.M. in Law and Informatics, *University of Minho, Portugal*
 - MBA, *Centro Universitário Franciscano, Brazil*
 - LL.B, *Centro Universitário Franciscano, Brazil*
 - B.B.A., *Universidade Federal de Santa Maria, Brazil*
 
+<!--
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
@@ -54,3 +54,4 @@ Example: editing a Markdown file for a talk
 For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+-->
