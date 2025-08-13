@@ -25,11 +25,11 @@ author:
   avatar           : "luis.jpg"
   name             : "Luis Felipe Ramos"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Privacy & Legal Consultant"
+  location         : "Portugal"
+  employer         : "[VisionWare](https://www.visionware.pt/)"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "luisramos at duck.com" 
 
   # Academic websites
   academia         : # URL
