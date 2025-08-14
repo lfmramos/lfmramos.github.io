@@ -13,7 +13,7 @@ My professional practice encompasses providing strategic counsel to both public 
 
 My research contributions have been published in the fields of privacy, data protection, and cybersecurity, reflecting my commitment to advancing legal scholarship in these rapidly evolving areas.
 
-<span style="color:#48DA9B">Education</span>
+<span style="color:#62c462">Education</span>
 ---
 - Ph.D. in Law, *University of Minho, Portugal* -  ongoing
 - LL.M. in Law and Informatics, *University of Minho, Portugal*
@@ -22,6 +22,8 @@ My research contributions have been published in the fields of privacy, data pro
 - B.B.A., *Universidade Federal de Santa Maria, Brazil*
 
 <!--
+Color 1: #62c462
+Color 2: #48DA9B
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
