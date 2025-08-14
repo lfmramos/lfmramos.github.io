@@ -13,7 +13,7 @@ My professional practice encompasses providing strategic counsel to both public 
 
 My research contributions have been published in the fields of privacy, data protection, and cybersecurity, reflecting my commitment to advancing legal scholarship in these rapidly evolving areas.
 
-<span style="color:#62c462">Education</span>
+<span style="color:#48DA9B">Education</span>
 ---
 - Ph.D. in Law, *University of Minho, Portugal* -  ongoing
 - LL.M. in Law and Informatics, *University of Minho, Portugal*
