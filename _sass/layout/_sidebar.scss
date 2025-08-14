@@ -130,6 +130,7 @@
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
+  color: var(--global-text-color); /* Override any inherited color */
 }
 
 .sidebar .author__desktop {
