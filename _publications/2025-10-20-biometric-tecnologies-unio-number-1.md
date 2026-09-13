@@ -2,7 +2,7 @@
 title: "Biometric technologies and the law: developing a taxonomy for guiding policymakers"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/2025-10-20-biometric-technologies-unio-number-1
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2025-10-20
 venue: 'UNIO EU Law Journal'
