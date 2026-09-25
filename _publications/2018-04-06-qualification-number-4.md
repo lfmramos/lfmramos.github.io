@@ -2,7 +2,7 @@
 title: "Qualification offer in EGOV competencies in PALOP-TL"
 collection: publications
 category: conferences
-permalink: /publication/2018-04-06-qualification-number-2
+permalink: /publication/2018-04-06-qualification-number-4
 excerpt: 'This paper analyses quantitative data from electronic government training sessions held across five Portuguese-speaking African countries and Timor-Leste in 2017. It evaluates the availability of local higher education courses, the qualifications of public administration professionals, and the wider workforce competencies needed to support the UNs 2030 Agenda.'
 date: 2018-04-06
 venue: 'ICEGOV 18: Proceedings of the 11th International Conference on Theory and Practice of Electronic Governance'
