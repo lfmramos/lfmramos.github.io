@@ -7,6 +7,7 @@ excerpt: "This study examines the data protection regulations that must be obser
 date: 2024-02-17
 venue: "ICEGOV '19: Proceedings of the 12th International Conference on Theory and Practice of Electronic Governance"
 paperurl: 'http://lfmramos.github.io/files/paper5.pdf'
+bibtexurl: 'http://lfmramos.github.io/files/bibtex5.bib'
 citation: "Luis Felipe M. Ramos and João Marco C. Silva. 2019. Privacy and Data Protection Concerns Regarding the Use of Blockchains in Smart Cities. In Proceedings of the 12th International Conference on Theory and Practice of Electronic Governance (ICEGOV '19). Association for Computing Machinery, New York, NY, USA, 342–347. https://doi.org/10.1145/3326365.3326410"
 ---
 
