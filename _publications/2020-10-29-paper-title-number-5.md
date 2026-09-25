@@ -2,7 +2,7 @@
 title: "Evaluating privacy during the COVID-19 public health emergency: the case of facial recognition technologies"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-evaluating-number-6
+permalink: /publication/2020-02-17-evaluating-number-6
 excerpt: 'This article explores how governments utilised facial recognition and other biometric technologies to combat the spread of COVID-19, examining the associated privacy risks and highlighting the general lack of adequate long-term safeguards for personal data across multiple countries.'
 date: 2020-10-29
 venue: "ICEGOV '20: Proceedings of the 13th International Conference on Theory and Practice of Electronic Governance"
