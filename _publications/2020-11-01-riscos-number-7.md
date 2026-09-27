@@ -7,7 +7,7 @@ excerpt: 'This paper examines the risks of algorithmic bias in AI-driven recruit
 date: 2020-11-01
 venue: "Questões Laborais"
 paperurl: 'http://lfmramos.github.io/files/paper7.pdf'
-bibtexurl: 'http://lfmramos.github.io/files/bibtex7.bib'
+bibtexurl: 'http://lfmramos.github.io/files/paper7.bib'
 citation: "Ramos, L. F. M. (2020). Os riscos invisíveis de discriminação na utilização de algoritmos no processo de contratação de pessoal. Questões Laborais, XXVII(56), 203-217."
 ---
 
