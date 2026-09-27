@@ -3,12 +3,12 @@ title: "Biometric technologies and the law: developing a taxonomy for guiding po
 collection: publications
 category: manuscripts
 permalink: /publication/2025-10-20-biometric-technologies-unio-number-1
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+excerpt: 'This study proposes a comprehensive taxonomy of biometric technologies to help policymakers and regulators better understand system characteristics and fundamental rights impacts. By categorising these technical features, the framework aims to facilitate the development of more effective data protection and privacy regulations.'
 date: 2025-10-20
 venue: 'UNIO EU Law Journal'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://doi.org/10.21814/unio.11.2.6933'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+paperurl: 'http://lfmramos.github.io/files/paper5.pdf'
+bibtexurl: 'http://lfmramos.github.io/files/bibtex5.bib'
+citation: 'Biometric technologies and the law: developing a taxonomy for guiding policymakers. (2025). UNIO – EU Law Journal, 11(2), 69-85. https://doi.org/10.21814/unio.11.2.6933'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Despite the increasing adoption of biometric technologies, their regulation has not kept up with the same pace, particularly with regard to safeguarding individuals’ privacy and personal data. Policymakers may struggle to comprehend the technology behind biometric systems and their potential impact on fundamental rights, resulting in insufficient or inadequate legal regulation. This study seeks to bridge this gap by proposing a taxonomy of biometric technologies that can aid in their effective deployment and supervision. Through a literature review, the technical characteristics of biometric systems were identified and categorised. The resulting taxonomy can enhance the understanding of biometric technologies and facilitate the development of regulation that prioritises privacy and personal data protection.
