@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2019-04-03-privacy-number-5
 excerpt: "This study examines the data protection regulations that must be observed when implementing blockchain projects in smart cities. It explores the interaction between blockchain technology and the European Union's legal framework, offering recommendations and a practical guide for public sector actors to assess the necessity and proportionality of such applications."
-date: 2024-02-17
+date: 2019-04-03
 venue: "ICEGOV '19: Proceedings of the 12th International Conference on Theory and Practice of Electronic Governance"
 paperurl: 'http://lfmramos.github.io/files/paper5.pdf'
 bibtexurl: 'http://lfmramos.github.io/files/bibtex5.bib'
