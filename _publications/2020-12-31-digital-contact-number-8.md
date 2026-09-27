@@ -7,7 +7,7 @@ excerpt: 'This article examines the design and personal data processing practice
 date: 2020-12-31
 venue: "UNIO EU Law Journal"
 paperurl: 'http://lfmramos.github.io/files/paper8.pdf'
-bibtexurl: 'http://lfmramos.github.io/files/bibtex8.bib'
+bibtexurl: 'http://lfmramos.github.io/files/paper8.bib'
 citation: "Ramos, L. F. M. (2020). Digital contact tracing and data protection: Assessing the French and Portuguese applications. UNIO – EU Law Journal, 6(2), 35–48. https://doi.org/10.21814/unio.6.2.2767"
 ---
 

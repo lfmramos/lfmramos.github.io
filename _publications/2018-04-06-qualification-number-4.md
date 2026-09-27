@@ -7,7 +7,7 @@ excerpt: 'This paper analyses quantitative data from electronic government train
 date: 2018-04-06
 venue: 'ICEGOV 18: Proceedings of the 11th International Conference on Theory and Practice of Electronic Governance'
 paperurl: 'http://lfmramos.github.io/files/paper4.pdf'
-bibtexurl: 'http://lfmramos.github.io/files/bibtex4.bib'
+bibtexurl: 'http://lfmramos.github.io/files/paper4.bib'
 citation: 'João Marco C. Silva, Luis Felipe M. Ramos, and Victor Fonte. 2018. Qualification offer in EGOV competencies in PALOP-TL. In Proceedings of the 11th International Conference on Theory and Practice of Electronic Governance (ICEGOV 18). Association for Computing Machinery, New York, NY, USA, 308–311. https://doi.org/10.1145/3209415.3209514'
 ---
 

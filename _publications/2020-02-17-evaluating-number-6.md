@@ -7,7 +7,7 @@ excerpt: 'This article explores how governments utilised facial recognition and 
 date: 2020-10-29
 venue: "ICEGOV '20: Proceedings of the 13th International Conference on Theory and Practice of Electronic Governance"
 paperurl: 'http://lfmramos.github.io/files/paper6.pdf'
-bibtexurl: 'http://lfmramos.github.io/files/bibtex6.bib'
+bibtexurl: 'http://lfmramos.github.io/files/paper6.bib'
 citation: "Luis Felipe M. Ramos. 2020. Evaluating privacy during the COVID-19 public health emergency: the case of facial recognition technologies. In Proceedings of the 13th International Conference on Theory and Practice of Electronic Governance (ICEGOV '20). Association for Computing Machinery, New York, NY, USA, 176–179. https://doi.org/10.1145/3428502.3428526"
 ---
 
