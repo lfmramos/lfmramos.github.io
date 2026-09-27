@@ -1,0 +1,14 @@
+---
+title: "Assessing the information security posture of online public services worldwide: Technical insights, trends, and policy implications"
+collection: publications
+category: manuscripts
+permalink: /publication/2025-05-08-assessing-number-14
+excerpt: 'This study evaluates the information security posture of 3,068 governmental domains across all UN Member States by examining secure communication protocols, digital certificate trustworthiness, and vulnerability exposure. The findings reveal that despite the rapid growth of online public services, the public sector often lags behind in adopting essential security standards and best practices, leaving critical citizen data exposed to significant threats.'
+date: 2025-05-08
+venue: "Government Information Quarterly"
+paperurl: 'http://lfmramos.github.io/files/paper14.pdf'
+bibtexurl: 'http://lfmramos.github.io/files/paper14.bib'
+citation: "Ribeiro, D., Fonte, V., Ramos, L. F., & Silva, J. M. (2025). Assessing the information security posture of online public services worldwide: Technical insights, trends, and policy implications. Government Information Quarterly, 42(2), 102031. https://doi.org/10.1016/j.giq.2025.102031"
+---
+
+The fast global expansion of online public services has transformed how governments interact with citizens, offering convenience and efficiency. However, this digital transformation also introduces significant security risks, as sensitive data exchanged between users and service providers over public networks are exposed to cyber threats. Thus, ensuring the security and trustworthiness of these services is critical to the success of Electronic Government (EGOV) initiatives. This study evaluates the information security posture of 3068 public service platforms across all 193 UN Member States through non-intrusive assessments conducted in 2023 and 2024. The evaluation focuses on three key dimensions: (i) the adoption of secure end-to-end communication protocols, (ii) the trustworthiness of digital certificate chains, and (iii) the exposure of hosting servers to known vulnerabilities. The findings reveal that while some progress has been made in securing online public services, substantial gaps remain in the implementation of international security standards and best practices. Many platforms continue to rely on outdated cryptographic protocols, misconfigured certificates, and unpatched vulnerabilities, leaving citizens and services vulnerable to cyber threats due to weaknesses that malicious actors can easily and inconspicuously identify. These insights emphasize the need for effective implementation of more comprehensive cybersecurity policies, proactive security assessments, and improved regulatory compliance checks. Additionally, this work provides actionable guidance for governments and system administrators to enhance the security of EGOV infrastructures by addressing persistent vulnerabilities and adopting robust cybersecurity practices.
